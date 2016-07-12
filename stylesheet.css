@@ -22,6 +22,7 @@
 	text-decoration: none;
 	padding: 10px 20px;
 	margin: 2px 2px;
+	line-height: 35px;
 }
 .header li a:hover{
 	background: #f1f1f1;
@@ -104,16 +105,17 @@ div > p{
 	color:#666;
 	font-family: sans-serif;
 	line-height: 30px;
+
 }
 
 .photos{
 	background-color: rgb(0, 204, 153);
 	width: 100%;
-	padding: 30px 0px;
+	height: ;
+	padding: 30px 0px 100px 0px;
 	font-family: sans-serif;
 }
 .photos h2{
-	alignment-baseline: ;
     width: 65%;  
     text-align: center;
     border-bottom: 4px solid #777; 
@@ -126,4 +128,31 @@ div > p{
     font-family: sans-serif;
     color:#fff;
     font-weight: lighter;
+}
+.images{
+	-webkit-column-gap: 0px;
+	-webkit-column-count: 3;
+}
+.photos div{
+	width: 80%;}
+figure a img{
+	width:100px;
+	height:80px;
+	margin: 0px;
+}
+figure:nth-of-type(1){
+	position: relative;
+	top: -20px;
+}
+figure:nth-of-type(2){
+	position: relative;
+	top: -15px;
+}
+figcaption{
+	color:white;
+	font-family: sans-serif;
+}
+figcaption::first-line{
+	color:white;
+	font-size: 25px;
 }
