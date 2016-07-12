@@ -10,6 +10,7 @@
 .header > ul{
 	list-style-type: none;
 	display: inline-block;
+	padding-left: 0;
 }
 .header > ul > li {
 	display: inline-block;
@@ -53,6 +54,7 @@
 #button > ul{
 	list-style-type: none;
 	display: inline-block;
+	padding-left: 0px;
 }
 #button > ul > li {
 	display: inline-block;
