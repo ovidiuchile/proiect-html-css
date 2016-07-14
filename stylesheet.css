@@ -165,7 +165,7 @@ figcaption::first-line{
 
 .contactUs{
 	background-color: rgb(232,79,64);
-	height: 400px;
+	height: 480px;
 }
 .contactUs h2{
     width: 85%;  
@@ -186,15 +186,15 @@ figcaption::first-line{
 }
 .contactUs .form{
 	background-color: white;
-	height:260px;
-	width:500px;
+	height:300px;
+	width:600px;
 	padding: 1px;
 	margin: 1px;
 	font-family: sans-serif;
 	color: #666;
 }
 .contactUs .form *{
-	margin: 7px;
+	margin: 10px 10px 10px 0px;
 }
 .contactUs .aux{
 	column-count: 2;
@@ -216,10 +216,10 @@ figcaption::first-line{
 	border-style: none;
 	position: relative;
 	margin-top: 0px;
-	left:-127px;
+	left:-159px;
 	
 }
-input[type="submit"]:hover{
+.contactUs .form input[type="submit"]:hover{
 	background-color: rgb(56,218,186);
 	cursor: pointer;
 }

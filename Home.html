@@ -134,25 +134,26 @@
 
 		<div class="contactUs" align="center">
 			<h2><span>CONTACT US</span></h2>
-				<form class="form">
-					<p>Endava 2016!</p>
-					<div class="aux">
-					Your Name*
-					<br>
-					<input type="text" name="name">
-					<br>
-					Your Email*
-					<br>
-					<input type="text" name="email">
-					<br>
-					Contact Phone
-					<br>
-					<input type="tel" name="phone">
-					<br>
-					   Type Your Message
-					<div id="bla"> <input type="text" name="message" height="50" align="none"></div>
-					</div>
-					<input id="submit" type="submit" value="Send Message">
+				<script src="form.js"></script>
+				<form name="myForm" class="form" onsubmit="return validateForm()">
+				<p>Endava 2016!</p>
+				<div class="aux">
+				Your Name*
+				<br>
+				<input type="text" name="name" value="">
+				<br>
+				Your E-mail*
+				<br>
+				<input type="email" name="email" value="">
+				<br>
+				Contact Phone
+				<br>
+				<input type="tel" name="phone">
+				<br>
+				Type Your Message
+				<div id="bla"> <input type="text" name="message" height="50" align="none"></div>
+				</div>
+				<input id="submit" type="submit" value="Send Message">
 				</form>
 		</div>
 		
