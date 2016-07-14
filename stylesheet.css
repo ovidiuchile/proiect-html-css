@@ -163,11 +163,11 @@ figcaption::first-line{
 	font-size: 25px;
 }
 
-.form{
+.contactUs{
 	background-color: rgb(232,79,64);
-	height: 100px;
+	height: 400px;
 }
-.form h2{
+.contactUs h2{
     width: 85%;  
     text-align: center;
     border-bottom: 2px;
@@ -177,21 +177,59 @@ figcaption::first-line{
     margin: 0 0 30px 0px;
     padding: 40px 0 0 0;
 }
-.form h2 span{
+.contactUs h2 span{
 	background:rgb(232,79,64); 
     padding:0px 40px; 
     font-family: sans-serif;
     color:#fff;
     font-weight: lighter;
 }
-
-
+.contactUs .form{
+	background-color: white;
+	height:260px;
+	width:500px;
+	padding: 1px;
+	margin: 1px;
+	font-family: sans-serif;
+	color: #666;
+}
+.contactUs .form *{
+	margin: 7px;
+}
+.contactUs .aux{
+	column-count: 2;
+}
+.contactUs #bla input{
+	height:90px ;
+}
+.contactUs .form p {
+	font-size:24px;
+	font-weight: lighter;
+	margin-bottom: 15px;
+}
+.contactUs .form input[type="submit"]{
+	font-family: sans-serif;
+	background-color: rgb(26,188,156);
+	color:white;
+	width: 173px;
+	height: 30px;
+	border-style: none;
+	position: relative;
+	margin-top: 0px;
+	left:-127px;
+	
+}
+input[type="submit"]:hover{
+	background-color: rgb(56,218,186);
+	cursor: pointer;
+}
 
 .bottom{
-	/*position:fixed;*/
+	position:static;
 	bottom: 0px;
 
 	background-color: rgb(35,52,69);
+	margin-top: 0px;
 	padding: 20px 80px 20px 40%;
 	color: white;
 	font-family: sans-serif;
@@ -201,3 +239,4 @@ figcaption::first-line{
 	width: auto;
 	margin: 0px 5px 0px 5px;
 }
+
