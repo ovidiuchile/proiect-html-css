@@ -163,12 +163,36 @@ figcaption::first-line{
 	font-size: 25px;
 }
 
+.form{
+	background-color: rgb(232,79,64);
+	height: 100px;
+}
+.form h2{
+    width: 85%;  
+    text-align: center;
+    border-bottom: 2px;
+    border-bottom-style:solid;
+    border-bottom-color:rgba(200,120,120,3); 
+    line-height: 0.05em;
+    margin: 0 0 30 0px;
+    padding: 40px 0 0 0;
+}
+.form h2 span{
+	background:rgb(232,79,64); 
+    padding:0px 40px; 
+    font-family: sans-serif;
+    color:#fff;
+    font-weight: lighter;
+}
+
+
+
 .bottom{
-	position:fixed;
-	bottom:0px;
-	width: 100%;
+	/*position:fixed;*/
+	bottom: 0px;
+
 	background-color: rgb(35,52,69);
-	padding: 20px 200px 20px 55%;
+	padding: 20px 80px 20px 40%;
 	color: white;
 	font-family: sans-serif;
 }
