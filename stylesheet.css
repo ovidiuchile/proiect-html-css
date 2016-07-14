@@ -107,7 +107,7 @@
 	background-color: #29293d;
 
 }
-hr {
+body hr {
     display: block;
     height: 1px;
     border: 0;
@@ -328,18 +328,72 @@ figcaption::first-line{
 	width: auto;
 	margin: 0px 5px 0px 5px;
 }
+@media only screen and (min-width: 701px){
+	.bottom ul{
+		display: none;
+	}
+	.bottom br{
+		display: none;
+	}
+	.bottom hr{
+		display: none;
+	}
+}
 @media only screen and (max-width: 700px){
+	.bottom #menu{
+		margin-top: 0px;
+	}
+	.bottom #menu > ul{
+		list-style-type: none;	
+		padding-left: 0;
+		margin-top: 0;
+		padding:0;
+		margin:0;
+	}
+	.bottom #menu > ul :nth-of-type(1) {
+		padding: 10px 20%;
+		margin:0;
+	}
+	.bottom #menu > ul > li > a {
+		color: #808080;
+		font-family: sans-serif;
+		text-decoration: none;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		margin: 2px 2px;
+		line-height: 35px;
+		margin-top: 0;
+		margin:0;
+	}
+	.bottom #menu li a:hover{
+		background-color: rgb(75,92,109);
+
+	}	
+	.bottom hr{
+		display: block;
+    	height: 1px;
+    	border: 0;
+    	border-top: 1px solid rgb(65,82,99);
+    	margin: 1em 0;
+    	padding: 0;
+	}
+
+
 	.bottom{
 		padding:0px;
+		margin-top: 0;
+		padding-bottom: 30px;
 	}
 	.bottom p{
 		display: none;
+		margin-top: 0;
 	}
 	.bottom img{
 		display:inline-block;
-		margin:25px 20%;
+		margin:80px 20% 60px 20%;
 		padding:0px;
 		height:20px;
+		margin-top: 0;
 	}
 }
 
