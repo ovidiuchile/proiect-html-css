@@ -133,7 +133,7 @@ div > p{
     font-weight: lighter;
 }
 .images{
-	-webkit-column-gap: 0px;
+	-webkit-column-gap: 30px;
 	-webkit-column-count: 3;
 	position: relative;
     top:-20px;
